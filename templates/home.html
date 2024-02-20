@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+     {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    
+
+    <style>
+        img{
+            width: 300px;
+            height: 200px;
+        }
+        h1{
+            color: white;
+            background-color: red;
+            line-height: 80px;
+            text-align: center;
+            font-size: 40px;
+        }
+        h1:hover{
+            background-color: blue;
+        }
+        
+    </style>
+       
+</head>
+<body>
+<h1>Homepage</h1>
+<hr>
+<br>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci blanditiis in maxime. Aliquid assumenda consequuntur cum dolores et iusto nisi, quaerat recusandae repellat suscipit totam unde! Cupiditate eveniet neque quos.</p>
+<img src="{% static 'images/car2.jpeg' %}" alt="">
+<img src="{% static 'images/car3.jpeg' %}" alt="">
+<img src="{% static 'images/car4.jpeg' %}" alt="">
+<img src="{% static 'images/car5.jpeg' %}" alt="">
+<img src="{% static 'images/car6.jpeg' %}" alt="">
+<img src="{% static 'images/car7.jpeg' %}" alt="">
+<br><br>
+<h1>Payment</h1>
+
+<p class="paragraph2"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aliquid deleniti dolorem eligendi et, fuga fugiat ipsa iste mollitia nostrum provident quam quidem recusandae repudiandae tempora tempore vero voluptates.</span><span>Ad alias at consectetur ducimus eveniet facilis, nostrum optio quos. Dolor dolorem doloribus magnam modi, necessitatibus saepe tempora. Amet cupiditate expedita illo impedit in iste maxime molestias odit reiciendis veniam?</span></p>
+<img id="image" src="{% static 'images/car8.jpeg' %}" alt="">
+<br><br><br><br><br>
+<div class="row">
+<h1>Travelers Choice of Hotels</h1>
+    <div class="col border border-secondary">
+        <img src="{% static 'images/22.jpeg' %}" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A debitis dolores eaque maiores repellendus. Ab accusamus aliquam deleniti est, ex illum impedit, itaque molestias officia quam saepe similique veritatis voluptas?</p>
+        <center>
+            <button>Book</button>
+            <button class=" btn btn-danger m-4">View on map</button>
+        </center>
+
+    </div>
+
+    <div class="col border border-secondary">
+<img src="{% static 'images/A3.jpeg' %}" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus earum expedita, ipsum laborum modi nostrum perferendis quo sapiente. Corporis dolor expedita fuga in inventore nisi quae quod sit soluta, veritatis.</p>
+        <center>
+            <button>Book</button>
+            <button class=" btn btn-danger m-4">View on map</button>
+        </center>
+
+    </div>
+
+    <div class="col border border-secondary">
+<img src="{% static 'images/A4.jpeg' %}" alt="">
+        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab ad aliquam amet animi at cupiditate fugiat labore necessitatibus, nisi obcaecati omnis quae quaerat quasi rem sit temporibus vero voluptatem?</P>
+        <center>
+            <button>Book</button>
+            <button class=" btn btn-danger m-4">View on map</button>
+        </center>
+
+    </div>
+</div>
+
+</body>
+</html>
